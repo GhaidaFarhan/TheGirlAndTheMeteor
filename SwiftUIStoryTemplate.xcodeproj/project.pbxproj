@@ -16,6 +16,12 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		806E01B82B0698550085607B /* movingDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E01B72B0698550085607B /* movingDayView.swift */; };
+		806E01BA2B06A9230085607B /* firstdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E01B92B06A9230085607B /* firstdayView.swift */; };
+		806E01BC2B06A9350085607B /* choiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E01BB2B06A9350085607B /* choiceView.swift */; };
+		80889E1F2B04218E0060F784 /* Starborn.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80889E1E2B04218E0060F784 /* Starborn.ttf */; };
+		80889E212B0421AA0060F784 /* Jackwrite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80889E202B0421AA0060F784 /* Jackwrite.ttf */; };
+		80889E5C2B0570270060F784 /* firstPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80889E5B2B0570270060F784 /* firstPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,13 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		806E01B72B0698550085607B /* movingDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movingDayView.swift; sourceTree = "<group>"; };
+		806E01B92B06A9230085607B /* firstdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstdayView.swift; sourceTree = "<group>"; };
+		806E01BB2B06A9350085607B /* choiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceView.swift; sourceTree = "<group>"; };
+		80889E1E2B04218E0060F784 /* Starborn.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starborn.ttf; sourceTree = "<group>"; };
+		80889E202B0421AA0060F784 /* Jackwrite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jackwrite.ttf; sourceTree = "<group>"; };
+		80889E582B056EA90060F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		80889E5B2B0570270060F784 /* firstPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 		5DE6F66E2AFADF05004ABB4F /* SwiftUIStoryTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				80889E582B056EA90060F784 /* Info.plist */,
 				5DE6F66F2AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift */,
 				5DE6F6712AFADF05004ABB4F /* ContentView.swift */,
 				5DE6F6872AFAE47A004ABB4F /* Chapter1 */,
@@ -86,6 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67D2AFAE3DF004ABB4F /* Chapter1View.swift */,
+				80889E5B2B0570270060F784 /* firstPageView.swift */,
+				806E01B72B0698550085607B /* movingDayView.swift */,
+				806E01B92B06A9230085607B /* firstdayView.swift */,
+				806E01BB2B06A9350085607B /* choiceView.swift */,
+				80889E1D2B0421130060F784 /* Fonts */,
 			);
 			path = Chapter1;
 			sourceTree = "<group>";
@@ -120,6 +139,15 @@
 				5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */,
 			);
 			path = Chapter5;
+			sourceTree = "<group>";
+		};
+		80889E1D2B0421130060F784 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				80889E1E2B04218E0060F784 /* Starborn.ttf */,
+				80889E202B0421AA0060F784 /* Jackwrite.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80889E1F2B04218E0060F784 /* Starborn.ttf in Resources */,
+				80889E212B0421AA0060F784 /* Jackwrite.ttf in Resources */,
 				5DE6F6772AFADF08004ABB4F /* Preview Assets.xcassets in Resources */,
 				5DE6F6742AFADF08004ABB4F /* Assets.xcassets in Resources */,
 			);
@@ -198,6 +228,10 @@
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
+				80889E5C2B0570270060F784 /* firstPageView.swift in Sources */,
+				806E01BC2B06A9350085607B /* choiceView.swift in Sources */,
+				806E01B82B0698550085607B /* movingDayView.swift in Sources */,
+				806E01BA2B06A9230085607B /* firstdayView.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +369,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIStoryTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -364,6 +399,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIStoryTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
