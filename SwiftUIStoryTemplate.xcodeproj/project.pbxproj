@@ -15,18 +15,19 @@
 		5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */; };
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
-
-		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
 		806E01B82B0698550085607B /* movingDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E01B72B0698550085607B /* movingDayView.swift */; };
 		806E01BA2B06A9230085607B /* firstdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E01B92B06A9230085607B /* firstdayView.swift */; };
 		806E01BC2B06A9350085607B /* choiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E01BB2B06A9350085607B /* choiceView.swift */; };
 		80889E1F2B04218E0060F784 /* Starborn.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80889E1E2B04218E0060F784 /* Starborn.ttf */; };
 		80889E212B0421AA0060F784 /* Jackwrite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80889E202B0421AA0060F784 /* Jackwrite.ttf */; };
 		80889E5C2B0570270060F784 /* firstPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80889E5B2B0570270060F784 /* firstPageView.swift */; };
-
 		80A1931A2B06EAF200BDE831 /* dinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A193192B06EAF200BDE831 /* dinoView.swift */; };
 		80A1931C2B06EB1100BDE831 /* dragonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1931B2B06EB1100BDE831 /* dragonView.swift */; };
-
+		E4165E062B07E406009BB427 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E052B07E406009BB427 /* ContentView.swift */; };
+		E4165E082B07E413009BB427 /* plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E072B07E413009BB427 /* plot.swift */; };
+		E4165E0A2B07E41D009BB427 /* BullingDinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E092B07E41D009BB427 /* BullingDinos.swift */; };
+		E4165E0C2B07E425009BB427 /* LisaSpeakUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */; };
+		E4165E0E2B07E42F009BB427 /* following.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E0D2B07E42F009BB427 /* following.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +40,6 @@
 		5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2View.swift; sourceTree = "<group>"; };
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
-
-		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
 		806E01B72B0698550085607B /* movingDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movingDayView.swift; sourceTree = "<group>"; };
 		806E01B92B06A9230085607B /* firstdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstdayView.swift; sourceTree = "<group>"; };
 		806E01BB2B06A9350085607B /* choiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceView.swift; sourceTree = "<group>"; };
@@ -48,10 +47,13 @@
 		80889E202B0421AA0060F784 /* Jackwrite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jackwrite.ttf; sourceTree = "<group>"; };
 		80889E582B056EA90060F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		80889E5B2B0570270060F784 /* firstPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPageView.swift; sourceTree = "<group>"; };
-
 		80A193192B06EAF200BDE831 /* dinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinoView.swift; sourceTree = "<group>"; };
 		80A1931B2B06EB1100BDE831 /* dragonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragonView.swift; sourceTree = "<group>"; };
-
+		E4165E052B07E406009BB427 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Desktop/MyChapter/MyChapter/ContentView.swift; sourceTree = "<group>"; };
+		E4165E072B07E413009BB427 /* plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plot.swift; sourceTree = "<group>"; };
+		E4165E092B07E41D009BB427 /* BullingDinos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BullingDinos.swift; sourceTree = "<group>"; };
+		E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LisaSpeakUp.swift; sourceTree = "<group>"; };
+		E4165E0D2B07E42F009BB427 /* following.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = following.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
+				E4165E052B07E406009BB427 /* ContentView.swift */,
+				E4165E072B07E413009BB427 /* plot.swift */,
+				E4165E092B07E41D009BB427 /* BullingDinos.swift */,
+				E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */,
+				E4165E0D2B07E42F009BB427 /* following.swift */,
 			);
 			name = Chapter2;
 			sourceTree = "<group>";
@@ -144,15 +151,6 @@
 			path = Chapter4;
 			sourceTree = "<group>";
 		};
-
-		5DE6F68B2AFAE49B004ABB4F /* Chapter5 */ = {
-			isa = PBXGroup;
-			children = (
-				5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */,
-			);
-			path = Chapter5;
-			sourceTree = "<group>";
-		};
 		80889E1D2B0421130060F784 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +160,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,15 +234,20 @@
 			files = (
 				5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */,
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
+				E4165E0A2B07E41D009BB427 /* BullingDinos.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				80A1931A2B06EAF200BDE831 /* dinoView.swift in Sources */,
 				80A1931C2B06EB1100BDE831 /* dragonView.swift in Sources */,
 				80889E5C2B0570270060F784 /* firstPageView.swift in Sources */,
+				E4165E0E2B07E42F009BB427 /* following.swift in Sources */,
+				E4165E082B07E413009BB427 /* plot.swift in Sources */,
 				806E01BC2B06A9350085607B /* choiceView.swift in Sources */,
 				806E01B82B0698550085607B /* movingDayView.swift in Sources */,
+				E4165E062B07E406009BB427 /* ContentView.swift in Sources */,
 				806E01BA2B06A9230085607B /* firstdayView.swift in Sources */,
+				E4165E0C2B07E425009BB427 /* LisaSpeakUp.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

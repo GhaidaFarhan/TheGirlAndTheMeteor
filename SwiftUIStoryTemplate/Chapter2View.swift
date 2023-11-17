@@ -5,7 +5,8 @@ struct Chapter2View: View {
         Text("Chapter 2")
     }
 }
-
-#Preview {
-    Chapter2View()
+struct Chapter2View_Previews: PreviewProvider {
+    static var previews: some View {
+        Chapter2View()
+    }
 }
