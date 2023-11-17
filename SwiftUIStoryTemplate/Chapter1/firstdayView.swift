@@ -33,7 +33,7 @@ struct firstdayView: View {
                 Spacer()
         
                 
-                Image("school")
+                Image("building")
                     .resizable()
                 
                 Text("\(girl1.name) had left her friends behind but it didn’t matter because she enjoyed meeting new kids that she could play outside with.")
