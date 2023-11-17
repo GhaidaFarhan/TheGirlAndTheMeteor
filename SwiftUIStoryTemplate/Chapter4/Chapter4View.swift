@@ -41,6 +41,7 @@ struct Chapter4View: View {
                     .padding()
 
                     Spacer()
+                    
                 }
                 .padding()
                 .navigationTitle("Chapter 4")
@@ -61,7 +62,7 @@ struct Chapter4View: View {
                         
                         
                         
-                        
+                        // Go Back button doesn't work
                         
                         Button(action: {
                                 showAlert = true
