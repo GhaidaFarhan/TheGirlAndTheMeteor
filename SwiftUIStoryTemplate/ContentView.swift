@@ -8,7 +8,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Chapter 1", systemImage: "1.circle")
                 }
-            Chapter2View()
+            ContentMyView()
                 .tabItem {
                     Label("Chapter 2", systemImage: "2.circle")
                 }
