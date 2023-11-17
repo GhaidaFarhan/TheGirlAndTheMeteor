@@ -20,10 +20,8 @@ struct ContentView: View {
                 .tabItem {
                     Label("Chapter 4", systemImage: "4.circle")
                 }
-            Chapter5View()
-                .tabItem {
-                    Label("Chapter 5", systemImage: "5.circle")
-                }
+           
+               
         }
     }
 }
