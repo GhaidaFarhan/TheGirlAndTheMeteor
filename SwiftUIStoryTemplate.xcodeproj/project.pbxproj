@@ -23,11 +23,11 @@
 		80889E5C2B0570270060F784 /* firstPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80889E5B2B0570270060F784 /* firstPageView.swift */; };
 		80A1931A2B06EAF200BDE831 /* dinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A193192B06EAF200BDE831 /* dinoView.swift */; };
 		80A1931C2B06EB1100BDE831 /* dragonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1931B2B06EB1100BDE831 /* dragonView.swift */; };
-		E4165E062B07E406009BB427 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E052B07E406009BB427 /* ContentView.swift */; };
 		E4165E082B07E413009BB427 /* plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E072B07E413009BB427 /* plot.swift */; };
 		E4165E0A2B07E41D009BB427 /* BullingDinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E092B07E41D009BB427 /* BullingDinos.swift */; };
 		E4165E0C2B07E425009BB427 /* LisaSpeakUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */; };
 		E4165E0E2B07E42F009BB427 /* following.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E0D2B07E42F009BB427 /* following.swift */; };
+		E4165E122B07E800009BB427 /* ContentMyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E112B07E800009BB427 /* ContentMyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,11 +49,11 @@
 		80889E5B2B0570270060F784 /* firstPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPageView.swift; sourceTree = "<group>"; };
 		80A193192B06EAF200BDE831 /* dinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinoView.swift; sourceTree = "<group>"; };
 		80A1931B2B06EB1100BDE831 /* dragonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragonView.swift; sourceTree = "<group>"; };
-		E4165E052B07E406009BB427 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Desktop/MyChapter/MyChapter/ContentView.swift; sourceTree = "<group>"; };
 		E4165E072B07E413009BB427 /* plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plot.swift; sourceTree = "<group>"; };
 		E4165E092B07E41D009BB427 /* BullingDinos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BullingDinos.swift; sourceTree = "<group>"; };
 		E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LisaSpeakUp.swift; sourceTree = "<group>"; };
 		E4165E0D2B07E42F009BB427 /* following.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = following.swift; sourceTree = "<group>"; };
+		E4165E112B07E800009BB427 /* ContentMyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
-				E4165E052B07E406009BB427 /* ContentView.swift */,
+				E4165E112B07E800009BB427 /* ContentMyView.swift */,
 				E4165E072B07E413009BB427 /* plot.swift */,
 				E4165E092B07E41D009BB427 /* BullingDinos.swift */,
 				E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */,
@@ -243,9 +243,9 @@
 				80889E5C2B0570270060F784 /* firstPageView.swift in Sources */,
 				E4165E0E2B07E42F009BB427 /* following.swift in Sources */,
 				E4165E082B07E413009BB427 /* plot.swift in Sources */,
+				E4165E122B07E800009BB427 /* ContentMyView.swift in Sources */,
 				806E01BC2B06A9350085607B /* choiceView.swift in Sources */,
 				806E01B82B0698550085607B /* movingDayView.swift in Sources */,
-				E4165E062B07E406009BB427 /* ContentView.swift in Sources */,
 				806E01BA2B06A9230085607B /* firstdayView.swift in Sources */,
 				E4165E0C2B07E425009BB427 /* LisaSpeakUp.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
