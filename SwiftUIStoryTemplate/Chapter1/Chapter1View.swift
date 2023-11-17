@@ -18,22 +18,26 @@ struct Chapter1View: View {
     
     var body: some View {
         NavigationStack{
-            VStack {
-                Text("The Girl And The Meteor")
-                    .font(.custom("Starborn", size: 30))
-                    .padding()
-                Spacer()
-                
-                NavigationLink {
-                    firstPageView()
-                } label: {
-                    Label("Once Upon A Time...", systemImage: "")
-                        .font(.custom("Starborn", size: 20))
-                }
-                .buttonStyle(GrowingButton())
+            ZStack{
+                Image("landscape")
+                    .resizable()
+                    .ignoresSafeArea()
+                VStack {
+                    Text("The Girl And The Meteor")
+                        .font(.custom("Starborn", size: 35))
+                        .padding()
+                    Spacer()
+                    
+                    NavigationLink {
+                        firstPageView()
+                    } label: {
+                        Label("Once Upon A Time...", systemImage: "")
+                            .font(.custom("Starborn", size: 20))
                     }
+                    .buttonStyle(GrowingButton())
                 }
-                
+            }
+        }
                 
             }
             

@@ -12,11 +12,6 @@ struct Girl {
     var name: String
 }
 let girlNames: [String] = ["Lisa","Kim","June"]
-//@State
-
-
-
-
 
 
 struct firstPageView: View {
@@ -24,7 +19,7 @@ struct firstPageView: View {
     func update() {
         refresh.toggle()
     }
-    //    @Binding var girl1: Girl
+   
     @State var girl1 = Girl(name: girlNames.randomElement() ?? "Lisa")
     var body: some View {
         NavigationStack {
@@ -35,17 +30,19 @@ struct firstPageView: View {
                     .padding()
                     .bold()
                 Text("Once upon a time there was")
-                    .font(.custom("Jackwrite", size: 20))
+                    .font(.custom("Jackwrite", size: 25))
                 Text("a girl named \(girl1.name).")
-                    .font(.custom("Jackwrite", size: 20))
+                    .font(.custom("Jackwrite", size: 25))
                 
                 Image("standing")
+                    Spacer()
                 Button("change Name"){
                     let new = girlNames.randomElement() ?? "June"
                     girl1.name = new
                     
-                }
-                
+                }.buttonStyle(.bordered)
+                    .foregroundColor(.black)
+                    .font(.custom("Jackwrite", size: 20))
                 Spacer()
                 
                 NavigationLink {

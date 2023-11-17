@@ -24,22 +24,29 @@ struct movingDayView: View {
                     .ignoresSafeArea()
                 VStack{
                     Text("One day \(girl1.name)'s parents announced that they are moving the family to a place called \(Land1.placeName).")
-                        .font(.custom("Jackwrite", size: 25))
-                        .foregroundStyle(Color(.white))
+                        .font(.custom("Jackwrite", size: 20))
+//                        .foregroundStyle(Color(.white))
+                                        .padding()
+                                        .foregroundStyle(.white)
+                                        .background(.teal).opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+                                        .clipShape(.capsule)
+
 
                         .padding()
                     Spacer()
                         
                     Image("lisa")
                         .resizable()
-                        .frame(width: 200,height: 250)
+                        .frame(width: 150,height: 200)
                     
                     Text("\(girl1.name) was ecstatic about the news. \(girl1.name)'s  parents moved the family to \(Land1.placeName). It was unlike anywhere she had ever been. \(girl1.name) was most excited to start school and make new friends.")
                         
-                        .font(.custom("Jackwrite", size: 25))
+                        .font(.custom("Jackwrite", size: 20))
                         
                         .padding()
-                        .foregroundStyle(Color(.white))
+                        .foregroundStyle(.white)
+                        .background(.teal).opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+                        .clipShape(.capsule)
                     NavigationLink {
                         firstdayView(girl1: girl1)
                     } label: {
@@ -57,7 +64,7 @@ struct movingDayView: View {
 
 struct movingDayView_Previews: PreviewProvider {
     static var previews: some View {
-        movingDayView(girl1: Girl(name: "test"))
+        movingDayView(girl1: Girl(name: "Lisa"))
     }
 }
 

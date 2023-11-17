@@ -23,16 +23,21 @@ struct firstdayView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                
                 Spacer()
                 Text("\(girl1.name)'s parents moved the family to \(Land1.placeName). It was unlike anywhere Lisa had ever been. Lisa was most excited to start school and make new friends at \(school1.name).")
-                    .font(.custom("Jackwrite", size: 20))
+                    .font(.custom("Jackwrite", size: 23))
                     .padding()
                 Spacer()
                 Spacer()
                 Spacer()
-                Spacer()
-                Text("\(girl1.name) had left her friends behind but it didn’t matter because she enjoyed meeting new kids to play outside with.")
-                    .font(.custom("Jackwrite", size: 20))
+        
+                
+                Image("school")
+                    .resizable()
+                
+                Text("\(girl1.name) had left her friends behind but it didn’t matter because she enjoyed meeting new kids that she could play outside with.")
+                    .font(.custom("Jackwrite", size: 23))
                     .padding()
                     
            Spacer()
@@ -52,6 +57,6 @@ struct firstdayView: View {
 
 struct firstdayView_Previews: PreviewProvider {
     static var previews: some View {
-        firstdayView(girl1: Girl(name: "test"))
+        firstdayView(girl1: Girl(name: "Lisa"))
     }
 }
