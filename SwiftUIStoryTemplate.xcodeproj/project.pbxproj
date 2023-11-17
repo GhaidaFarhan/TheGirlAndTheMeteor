@@ -23,6 +23,7 @@
 		80889E5C2B0570270060F784 /* firstPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80889E5B2B0570270060F784 /* firstPageView.swift */; };
 		80A1931A2B06EAF200BDE831 /* dinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A193192B06EAF200BDE831 /* dinoView.swift */; };
 		80A1931C2B06EB1100BDE831 /* dragonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1931B2B06EB1100BDE831 /* dragonView.swift */; };
+		80F09E202B07EB2E0000D0B2 /* ContentMyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F09E1F2B07EB2E0000D0B2 /* ContentMyView.swift */; };
 		E4165E082B07E413009BB427 /* plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E072B07E413009BB427 /* plot.swift */; };
 		E4165E0A2B07E41D009BB427 /* BullingDinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E092B07E41D009BB427 /* BullingDinos.swift */; };
 		E4165E0C2B07E425009BB427 /* LisaSpeakUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */; };
@@ -48,6 +49,7 @@
 		80889E5B2B0570270060F784 /* firstPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPageView.swift; sourceTree = "<group>"; };
 		80A193192B06EAF200BDE831 /* dinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinoView.swift; sourceTree = "<group>"; };
 		80A1931B2B06EB1100BDE831 /* dragonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragonView.swift; sourceTree = "<group>"; };
+		80F09E1F2B07EB2E0000D0B2 /* ContentMyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMyView.swift; sourceTree = "<group>"; };
 		E4165E072B07E413009BB427 /* plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plot.swift; sourceTree = "<group>"; };
 		E4165E092B07E41D009BB427 /* BullingDinos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BullingDinos.swift; sourceTree = "<group>"; };
 		E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LisaSpeakUp.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
+				80F09E1F2B07EB2E0000D0B2 /* ContentMyView.swift */,
 				E4165E072B07E413009BB427 /* plot.swift */,
 				E4165E092B07E41D009BB427 /* BullingDinos.swift */,
 				E4165E0B2B07E425009BB427 /* LisaSpeakUp.swift */,
@@ -240,6 +243,7 @@
 				80889E5C2B0570270060F784 /* firstPageView.swift in Sources */,
 				E4165E0E2B07E42F009BB427 /* following.swift in Sources */,
 				E4165E082B07E413009BB427 /* plot.swift in Sources */,
+				80F09E202B07EB2E0000D0B2 /* ContentMyView.swift in Sources */,
 				806E01BC2B06A9350085607B /* choiceView.swift in Sources */,
 				806E01B82B0698550085607B /* movingDayView.swift in Sources */,
 				806E01BA2B06A9230085607B /* firstdayView.swift in Sources */,
