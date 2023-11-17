@@ -24,6 +24,9 @@
 		80889E212B0421AA0060F784 /* Jackwrite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80889E202B0421AA0060F784 /* Jackwrite.ttf */; };
 		80889E5C2B0570270060F784 /* firstPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80889E5B2B0570270060F784 /* firstPageView.swift */; };
 
+		80A1931A2B06EAF200BDE831 /* dinoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A193192B06EAF200BDE831 /* dinoView.swift */; };
+		80A1931C2B06EB1100BDE831 /* dragonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1931B2B06EB1100BDE831 /* dragonView.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		80889E202B0421AA0060F784 /* Jackwrite.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jackwrite.ttf; sourceTree = "<group>"; };
 		80889E582B056EA90060F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		80889E5B2B0570270060F784 /* firstPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPageView.swift; sourceTree = "<group>"; };
+
+		80A193192B06EAF200BDE831 /* dinoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinoView.swift; sourceTree = "<group>"; };
+		80A1931B2B06EB1100BDE831 /* dragonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragonView.swift; sourceTree = "<group>"; };
 
 /* End PBXFileReference section */
 
@@ -107,6 +113,8 @@
 				806E01B72B0698550085607B /* movingDayView.swift */,
 				806E01B92B06A9230085607B /* firstdayView.swift */,
 				806E01BB2B06A9350085607B /* choiceView.swift */,
+				80A193192B06EAF200BDE831 /* dinoView.swift */,
+				80A1931B2B06EB1100BDE831 /* dragonView.swift */,
 				80889E1D2B0421130060F784 /* Fonts */,
 			);
 			path = Chapter1;
@@ -232,6 +240,8 @@
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
+				80A1931A2B06EAF200BDE831 /* dinoView.swift in Sources */,
+				80A1931C2B06EB1100BDE831 /* dragonView.swift in Sources */,
 				80889E5C2B0570270060F784 /* firstPageView.swift in Sources */,
 				806E01BC2B06A9350085607B /* choiceView.swift in Sources */,
 				806E01B82B0698550085607B /* movingDayView.swift in Sources */,
