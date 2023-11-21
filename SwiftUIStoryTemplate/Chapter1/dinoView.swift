@@ -16,7 +16,7 @@ struct dinoView: View {
             ZStack {
                 Image("classroom")
                     .resizable()
-                    .ignoresSafeArea()
+//                    .ignoresSafeArea()
                 
                 VStack {
                 

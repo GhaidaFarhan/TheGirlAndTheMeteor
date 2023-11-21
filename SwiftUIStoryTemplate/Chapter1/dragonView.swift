@@ -16,7 +16,7 @@ struct dragonView: View {
             ZStack {
                 Image("classroom")
                     .resizable()
-                    .ignoresSafeArea()
+//                    .ignoresSafeArea()
                 VStack {
                     
                     Text("When \(girl1.name) first walked into class, she sat down and looked around. All around her were large dragons of all kinds. The teacher introduced her to the class and she sat next to a dragon named Jack. She began talking to Jack and realized that they actually had a lot in common.")
